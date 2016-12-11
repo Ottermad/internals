@@ -25,7 +25,7 @@ class HTTPException(Exception):
 
     def __init__(self, status_code, error_dict={}):
         self.status_code = status_code
-        self.error_response = ErrorResponse(
+        self.error_response = HTTPError(
             status_code=status_code,
             error_dict=error_dict
         )
