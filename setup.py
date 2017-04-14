@@ -6,6 +6,8 @@ setup(
     description='internal utility methods',
     packages=[
         'internal',
+        'internal.test',
+        'internal.test.factories'
     ],
     install_requires=[
         'flask',
