@@ -8,6 +8,7 @@ setup(
         'internal',
     ],
     install_requires=[
-        'flask'
+        'flask',
+        'faker'
     ]
 )
