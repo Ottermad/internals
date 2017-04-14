@@ -12,6 +12,7 @@ class UserFactory:
             'email': fake.email(),
             'username': fake.user_name(),
             'password': fake.password(),
+            'pk': fake.random_int()
         }
 
         return user

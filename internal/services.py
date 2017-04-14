@@ -9,3 +9,4 @@ class Service:
         self.host = host
 
 USER_SERVICE = Service('http://user')
+BLOG_SERVICE = Service('http://blog')
