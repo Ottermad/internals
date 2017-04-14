@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='internal-utils',
-    version='0.0.4',
+    version='0.0.5',
     description='internal utility methods',
     packages=[
         'internal',
